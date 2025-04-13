@@ -1,0 +1,6 @@
+Number of processes: 4
+Total samples: 100000000
+pi estimate: 3.14138688
+True pi value: 3.141592653589793
+Error: 0.0002057735897929014
+Execution time: 0.37 seconds
