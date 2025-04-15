@@ -126,8 +126,8 @@ def main():
     server = make_server('127.0.0.1', 8000, wsgi_app)
     print("Server started at http://127.0.0.1:8000")
     print("WSDL is available at http://127.0.0.1:8000/?wsdl")
-    print("Test users: user1 (keyword: keyword1, alt_email: user1@example.com)")
-    print("             user2 (keyword: keyword2, alt_email: user2@example.com)")
+    print("Test users: user1 (keyword: secret1, alt_email: user1@example.com)")
+    print("             user2 (keyword: secret2, alt_email: user2@example.com)")
 
     server.serve_forever()
 
